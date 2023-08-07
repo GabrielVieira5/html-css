@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: gray;
+}
+div > p {
+   display: none; 
+}
+div:hover > p{
+    display: block;
+    color: red;
+}
+
+
+#teste{
+    color: greenyellow;
+}

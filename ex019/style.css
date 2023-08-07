@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(30, 128, 128);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#principal{
+    text-align: center;
+}
+
+.basic{
+    color: green;
+}
+.inter{
+    color: yellow;
+}
+.advanced{
+    color: red;
+}
+h2{
+    color: green;
+}
