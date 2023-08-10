@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+.autor{
+    font-style: oblique;
+}
+.heafoo{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+section > p{
+    padding: 15px;
+    width: 200px;
+}
+
+.sectexto2{
+    height: 329px;
+    width: 1366px;
+    background: black url('imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+    
+    
