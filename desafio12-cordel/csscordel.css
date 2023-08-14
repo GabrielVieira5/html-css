@@ -13,9 +13,16 @@ body{
     text-align: center;
 }
 
+
 section > p{
     padding: 15px;
     width: 200px;
+    line-height: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section{
+    padding-top: 15px;
 }
 
 .sectexto2{
@@ -23,25 +30,22 @@ section > p{
     width: 1366px;
     background: black url('imagens/background001.jpg') center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 7px 7px 7px rgba(0, 0, 0, 0.582);
 }
-.texto2{
+.texto2, .texto4{
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    margin-top: 15px;
+    
 }
 .sectexto4{
     height: 329px;
     width: 1366px;
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 7px 7px 7px rgba(0, 0, 0, 0.582);
+
 
 }
-.texto4{
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    margin-top: 15px;
-}
-    
+  
     
