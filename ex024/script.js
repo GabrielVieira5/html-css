@@ -1,3 +1,12 @@
-const hab1 = prompt('Digite o numero de habitantes do primeiro estado');
-const hab = document.getElementById("sp-hab");
-hab.innerHTML = ('Vieira esyteve aquisfnom');
+function numerohabitante (x) {
+const numero = Number(prompt('porra'));
+const habitante = document.getElementById(x);
+
+return habitante.innerHTML = numero;
+}
+
+numerohabitante ('sp-hab');
+numerohabitante ('mg-hab');
+numerohabitante ('rj-hab');
+
+

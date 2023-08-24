@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<script src="script.js"></script>
+
 <body>
-    <h1>Estados Brasileiros</h1>
+    
+    <h1>Estados <span id="dead">Brasileiros</span></h1>
     <table>
         <thead>
             <tr>
@@ -20,20 +21,25 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td id="sp-hab">0</td>
+                <td><span id="sp-hab">0</span></td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td class="mg-hab">0</td>
+                <td id="mg-hab">0</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="rj-hab">0</td>
+                <td id="rj-hab">0</td>
             </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <th>Numero total: </th>
+                <td id="total">0</td>
+            </tr>
         </tfoot>
     </table>
+
+    <script src="script.js"></script>
 </body>
 </html>
