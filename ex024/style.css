@@ -5,9 +5,10 @@ body{
     text-align: center;
 }
 table{
+    position: relatives;
     margin: auto;
     width: 400px;
-    height: 400px;
+    height: 10400px;
     border-collapse: collapse;
 }
 
@@ -22,4 +23,20 @@ th{
 }
 tbody > td:nth-child(odd){
     background-color: gray;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav > a {
+    display: inline-block;
+    
+}
+main{
+    position: relative;
 }
