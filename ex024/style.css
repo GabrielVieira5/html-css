@@ -20,3 +20,6 @@ td, th{
 th{
     background-color: lightgrey;
 }
+tbody > td:nth-child(odd){
+    background-color: gray;
+}
